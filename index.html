@@ -1,29 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food website 🥫 </title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food website 🥫</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
     <header>
-        <a href="#" class="logo">Food<span>.</span></a>
-        <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#experts">Experts</a></li>         
-            <li><a href="testimonial">Testimonial</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <a href="#" class="logo">Food<span>.</span></a>
+      <ul class="navigation">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#experts">Experts</a></li>
+        <li><a href="testimonial">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </header>
     <section class="banner" id="banner">
-        <div class="content">
-            <h2>Always Choose Good</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita recusandae eum quas, animi dolore temporibus sapiente commodi enim voluptates, ipsa, architecto officia officiis dolor </p>
-            <a class="btn" href="#">Our Menu</a>
-        </div>
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+          recusandae eum quas, animi dolore temporibus sapiente commodi enim
+          voluptates, ipsa, architecto officia officiis dolor
+        </p>
+        <a class="btn" href="#">Our Menu</a>
+      </div>
     </section>
-</body>
+    <!-- About section start -->
+<section class="about" id="about">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText"><span>A</span>bout us</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos vitae beatae deleniti ut animi reprehenderit non vero dolorum consequatur unde soluta ipsum, laborum blanditiis, amet at placeat qui alias sequi. Ducimus omnis voluptas ex. Quisquam nobis laborum voluptatem magni fugiat ab, ullam officiis? Molestias voluptas pariatur sequi accusamus at. <br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid voluptas, quis vel odit ducimus eos velit amet illum optio soluta. Quidem, velit iure autem at nemo aspernatur? Rem, assumenda.</p>
+        </div>
+        <div class="col50">
+            <div class="imgBx">
+                <img src="/images/food3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Menu section start -->
+<section class="menu" id="menu">
+    <div class="title">
+        <h2 class="titleText"><span>O</span>ur Menu</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing el</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu1.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Salad</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu2.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Soup</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu3.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Pasta</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu4.webp" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Sona</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu5.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Salad</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/menu6.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special Salad</h3>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <a href="#" class="btn">View All</a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
 </html>
